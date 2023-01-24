@@ -5,6 +5,7 @@ from airflow.operators.bash_operator import BashOperator
 from airflow.utils.dates import datetime
 from airflow.utils.dates import timedelta
 
+# Set up dag params
 default_args={
     'owner':'NatnaelM',
     'retries':5,
