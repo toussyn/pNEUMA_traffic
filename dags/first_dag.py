@@ -2,6 +2,7 @@ from airflow import DAG
 from airflow.decorators import task
 from datetime import datetime
 
+# dag params 
 with DAG(
     'first_tag',
     description='A simple first',
