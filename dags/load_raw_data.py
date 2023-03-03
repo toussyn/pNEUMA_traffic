@@ -6,6 +6,8 @@ import logging
 log: logging.log = logging.getLogger("airflow")
 log.setLevel(logging.INFO)
 
+# load data
+
 default_args={
     'owner':'NatnaelM',
     'retries':5,
