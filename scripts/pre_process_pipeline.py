@@ -1,4 +1,4 @@
-# Pipeline created 
+# Pipeline
 
 class PreProcessPipeline():
     def __init__(self) -> None:
